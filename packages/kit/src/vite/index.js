@@ -18,6 +18,7 @@ import { preview } from './preview/index.js';
 const cwd = process.cwd();
 
 const enforced_config = {
+	appType: 'custom',
 	base: true,
 	build: {
 		cssCodeSplit: true,
@@ -137,6 +138,7 @@ function kit() {
 
 			// dev and preview config can be shared
 			return {
+				appType: 'custom',
 				base: '/',
 				build: {
 					rollupOptions: {
