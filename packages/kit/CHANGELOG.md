@@ -1,5 +1,11 @@
 # @sveltejs/kit
 
+## 1.0.0-next.356
+
+### Patch Changes
+
+- [breaking] use undici instead of node-fetch ([#5117](https://github.com/sveltejs/kit/pull/5117))
+
 ## 1.0.0-next.355
 
 ### Patch Changes
